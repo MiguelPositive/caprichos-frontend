@@ -1,0 +1,12 @@
+.contenedor-login {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/caprichos.avif");
+  background-repeat: repeat;
+  background-size: 25%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

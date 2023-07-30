@@ -1,0 +1,12 @@
+@media (max-width: 575px) {
+  .boton-buscador {
+    width: 10rem;
+  }
+
+  .boton-buscador div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+  }
+}

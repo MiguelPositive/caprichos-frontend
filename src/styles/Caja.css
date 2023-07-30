@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  .datos-cliente-venta {
+    margin-top: 2rem;
+  }
+
+  .datos-venta {
+    margin-top: 3rem;
+    height: 24rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .datos-cliente-venta {
+    margin-top: 2rem;
+  }
+
+  .subtotal,
+  .total {
+    width: 50%;
+  }
+
+  .valor-domicilio,
+  .acciones-venta {
+    width: 50%;
+  }
+
+  .detalles {
+    width: 50%;
+  }
+
+  .btn-agregar-pizza,
+  .btn-buscarventa-pizza {
+    width: 50%;
+  }
+}
+
+@media (max-width: 401px) {
+  .btn-agregar-pizza,
+  .btn-buscarventa-pizza {
+    width: 100%;
+    margin: auto 25%;
+  }
+
+  .btn-agregar-pizza {
+    margin-bottom: 5%;
+  }
+}
