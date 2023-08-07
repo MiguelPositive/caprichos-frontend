@@ -2,6 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import { useContext } from "react";
+import { useEffect } from "react";
 
 //react router dom
 import { useNavigate } from "react-router-dom";
@@ -24,6 +25,7 @@ import VisibilityRoundedIcon from "@mui/icons-material/VisibilityRounded";
 import { store } from "../context/ContextApp";
 import "animate.css";
 import "../../styles/Login.css";
+import password from "../alerts/password";
 
 const BotonLogin = styled(Paper)({
   transition: "0.4s",
@@ -85,6 +87,10 @@ const Login = () => {
   const handleShowContrasena = () => {
     setShowContrasena(!showcontrasena);
   };
+
+  useEffect(() => {
+    password();
+  }, []);
 
   return (
     <div className="contenedor-login animate__animated animate__fadeIn">
