@@ -1,6 +1,6 @@
 import Swal from "sweetalert2";
 
-const exito = () => {
+const password = () => {
   Swal.fire({
     position: "center",
     icon: "info",
